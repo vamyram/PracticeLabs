@@ -1,0 +1,16 @@
+{
+	"name": "AzureBlobStorageLinkedServicestageQ2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=projectvamyblobacc;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyYzJmMTlkOC1lYzUyLTQ0MzMtOTk3YS0wNTQyYTUzYjI2ZTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "ls_azsqldb_Q2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=projectazuresqlsvr.database.windows.net;initial catalog=projectazuresqldb;user id=adm",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0N2ZlYmIwYi0xM2Q0LTRmY2YtYTFlYS01MTExZjA5ODkzYjkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

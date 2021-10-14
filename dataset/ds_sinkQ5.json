@@ -1,0 +1,27 @@
+{
+	"name": "ds_sinkQ5",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AzureBlobStrQ5",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@CONCAT('Incremental - ',pipeline().RunId, 'txt')",
+					"type": "Expression"
+				},
+				"folderPath": "incrementalcopy",
+				"container": "adftutorial"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

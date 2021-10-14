@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabaseDatasetQ2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azsqldb_Q2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "dummyName"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

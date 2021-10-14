@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDWLinkedServiceQ2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=synapseworkspacevamy.sql.azuresynapse.net;initial catalog=\"dedicated pool\";user id=sqladminuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYzI0YjI4ZC1hZGM0LTQ3YTgtOWY0MS1iNTJlYzY0MTU0M2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

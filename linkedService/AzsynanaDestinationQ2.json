@@ -1,0 +1,16 @@
+{
+	"name": "AzsynanaDestinationQ2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=synapseworkspacevamy.sql.azuresynapse.net;initial catalog=\"dedicated pool\";user id=sqladminuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5YzdiOTBkZi1jZjQ0LTQ5NmEtOTdhZC05NTM0NTc2NTA3NDEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

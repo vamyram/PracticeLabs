@@ -1,0 +1,9 @@
+{
+	"name": "Project-vamy-Adf01",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9fd99046-bb6e-4eb9-978d-869320384327",
+		"tenantId": "fc1dc98a-c0fe-466c-8435-772b6b77aad8"
+	}
+}
