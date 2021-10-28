@@ -1,0 +1,84 @@
+{"PersonInfo":
+{
+  "Person": {
+"id" : "101",
+    "firstName": "Mark",
+    "lastName": "Steve"
+    },
+ "address": [
+{
+"Id" : 1001,
+"PersonId" : 101,
+      "Line1": "55 Autumn Drive",
+        "Line2": "Homeland Drive",
+"City" : "Sutton",
+        "state": "Surrey",
+        "Zip": "SM2 5FG",
+"Country" : "UK",
+"TypeId" : 1
+},
+{
+   "Id" : 1002,
+"PersonId" : 101,
+      "Line1": "156,Chiswick Park",
+        "Line2": " Chiswick High Road ",
+"City" : "Chiswick",
+        "state": "Westminister",
+        "Zip": "W4 5XR",
+"Country" : "UK",
+"TypeId" : 2
+}],  
+  "ContactDetail": [
+   {
+"Id" : 501,
+"PersonId" : 101,
+      "Detail": "44208123456",
+        "TypeId": 10001,
+},
+  {
+"Id" : 502,
+"PersonId" : 101,
+      "Detail": "7417183449",
+        "TypeId": 10002,
+},
+  {
+"Id" : 503,
+"PersonId" : 101,
+      "Detail": "7417183449",
+        "TypeId": 10003,
+},
+  {
+"Id" : 504,
+"PersonId" : 101,
+      "Detail": "rory_neufville@neufville.com",
+        "TypeId": 10004,}],
+   "Person":
+{
+"id" : "105",
+    "firstName": "Amy",
+    "lastName": "Jackson"
+    },
+"address":
+{
+"Id" : 1008,
+"PersonId" : 105,
+      "Line1": "5 Brasted Flats",
+        "Line2": "Morden Road",
+"City" : "Morden",
+        "state": "Surrey",
+        "Zip": "SM4 2TT",
+"Country" : "UK",
+"TypeId" : 1
+},
+"ContactDetail":
+   {
+"Id" : 510,
+"PersonId" : 105,
+      "Detail": "7671834459",
+        "TypeId": 1000
+}  
+}
+  }
+ 
+
+
