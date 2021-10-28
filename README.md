@@ -1,5 +1,5 @@
 # PracticeLabs
-Database has these files 
+Database folder contains following files :
 
 Problem 6 : DB Design ,DDL and DML for University 
 
