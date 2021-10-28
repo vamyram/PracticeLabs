@@ -1,4 +1,4 @@
-# PracticeLabs
+# Project-Submission
 
 # database:
 The database folder contains following files :
